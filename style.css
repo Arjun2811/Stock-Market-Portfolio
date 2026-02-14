@@ -1,0 +1,110 @@
+
+#header{
+    text-align: center;
+    padding: 5px;
+    margin: 0.2vh;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#chartandlist{
+
+
+background-color:black;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin:5px;
+}
+#chart{
+     /* height:60vh; */
+    width:50vw; 
+    background-color: rgb(228, 98, 98);
+    margin: 1vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+#list{
+
+    /* height:60vh; */
+    width:20vw;
+    background-color: grey;
+    margin: 1vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+#chartarea{
+    /* height: 80%;
+    width: 90%; */
+    padding: 5px;
+    background-color: black;
+    /* margin: auto; */
+    
+}
+#timeline{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.time{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#innerlist{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    align-items: center;
+    height: 7vh;
+
+}
+#stockname{
+    height: 5vh;
+    width: 4vw;
+    margin-left: 1px;
+ 
+}
+#profit{
+
+    height: 5vh;
+    width: 4vw;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+    
+}
+#bookvalue{
+    height: 5vh;
+    width: 4vw;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+}
+
+#details{
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(228, 98, 98);
+    border-radius: 10px;
+    padding: 10px;
+    font-size:small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.time{
+    background-color: darkblue;
+    color:white
+    
+}
