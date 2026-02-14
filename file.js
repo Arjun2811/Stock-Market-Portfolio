@@ -2,7 +2,7 @@ const list=document.querySelector("#list");
 const details=document.querySelector("#details h2");
 const chart=document.querySelector("#chartarea");
 const time=document.querySelectorAll(".time");
-
+alert("Click on any stock to get the chart and details");
  async function getlist()
  {
     const response=await fetch("https://stock-market-api-k9vl.onrender.com/api/stocksstatsdata");
